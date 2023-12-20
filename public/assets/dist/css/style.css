@@ -1,0 +1,115 @@
+/* hero page index */
+ /* Default height for small devices */
+
+/* #intro-example{
+    background-image: url('images/hero_index.jpg');
+    background-size: cover;
+    height: 100vh;
+} */
+/* hero */
+.h-text{
+  color: #bc276d;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+.h-text1{
+  color: black;
+  font-weight: 800;
+  font-size: 3.6rem;
+  
+}
+.c-hibs {
+  color: #bc276d;
+  font-weight: 600;
+
+
+}
+.bg-color{
+background-color: #eceef8;
+height: 118vh;
+}   
+.c-row{
+  padding-bottom:13rem;
+  z-index: 500;
+  position: relative;
+  top: -10rem;
+  right: 1.7rem;
+  
+
+}
+.img-hrs{
+  border-radius: 2rem;
+  height: 39rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.c-card{
+  height: 5.7rem;
+  /* width: 50rem; */
+  border-radius: 2.2rem;
+  background: #bc276d;
+  margin-right: 25%;
+  margin-left: 1%;
+}
+/* apropos page index */
+.mvob{
+  padding-top: 5rem;
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.c-misucdas{
+  background:#f8f9fa" 
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+/* liste activite */
+.event-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff0000; /* Customize the background color */
+  color: #ffffff; /* Customize the text color */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+.btn-activite{
+  background-color: #00839a;
+  height: 2.7rem;
+  width: 13rem;
+  border-radius: 1.1rem;
+}
+/* contact */
+#hero_contact{
+  background-image: url('../../../images/contact.jpeg');
+  background-size: cover;
+  height: 50vh;
+}
