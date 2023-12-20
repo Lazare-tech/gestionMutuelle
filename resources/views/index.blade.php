@@ -10,65 +10,97 @@
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
     <link rel="stylesheet" href="{{ asset('assets/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/dist/css/style.css') }}">
     <!-- Styles -->
-
-    <style>
-        /* Default height for small devices */
-
-        /* Height for devices larger than 992px */
-    </style>
+    
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="{{ asset('assets/dist/css/fontawesome.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/dist/css/templatemo-574-mexant.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/dist/css/owl.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/dist/css/animate.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 </head>
 
 <body class="">
     @include('navbar.nav')
 
-    <section class="bg-color">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-sm-12 col-xs-12 col-lg-6 col-md-12">
-                    <img src="images/m1.jpeg" class="img-hrs" alt="Bootstrap Themes"
-                         loading="lazy">
-                </div>
-                
-                <div class="col-lg-6 pb-5 ">
-                    <h4 class="lh-1 mb-3 h-text1">Notre engagement</h4>
-                    <h1 class="display-5 lh-1 mb-3 h-text">pour la societe</h1>
-
-                    <p class="lead ">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        world’s
-                        most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
-                        system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <p><span class="c-hibs text-uppercase">Découvrez nos activités</span></p>
-                    <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                    </div> -->
-                </div>
-
-            </div>
-            <div class="lrobus-a">
-                <div class="row">
-                    <div class="col-lg-12 c-row ">
-                        <div class="card c-card">
-                            <div class="card-body">
-                                <p class="card-text mb-0">
-                                <h3 class="text-muted text-white">Nos domaines d'activites</h3>
-                                <span class="text-white fw-bold">Education,Environnement,sante,action
-                                    communautaire,lorem,ipsumlor,hisicus</span>
-                                </p>
-                            </div>
-                        </div>
+  <!-- ***** Main Banner Area Start ***** -->
+  <div class="swiper-container" id="top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide-inner" style="background-image:url(/images/slide-01.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="header-text">
+                  <h2>Get <em>ready</em> for your business<br>&amp; upgrade <em>all aspects</em></h2>
+                  <div class="div-dec"></div>
+                  <p>Mexant HTML5 Template is provided for free of charge. This layout is based on Boostrap 5 CSS framework. Anyone can download and edit for any professional website. Thank you for visiting TemplateMo website.</p>
+                  <div class="buttons">
+                    <div class="green-button">
+                      <a href="#">Discover More</a>
                     </div>
+                    <div class="orange-button">
+                      <a href="#">Contact Us</a>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-
+          </div>
         </div>
-
-    </section>
-    <!-- <div class="b-example-divider"></div> -->
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner" style="background-image:url(/images/slide-02.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="header-text">
+                  <h2><em>Digital</em> Currency for you <br>&amp; Best <em>Crypto</em> Tips</h2>
+                  <div class="div-dec"></div>
+                  <p>You will see a bunch of free CSS templates when you search on Google. TemplateMo website is probably the best one because it is 100% free. It does not ask you anything in return. You have a total freedom to use any template for any purpose.</p>
+                  <div class="buttons">
+                    <div class="green-button">
+                      <a href="#">Discover More</a>
+                    </div>
+                    <div class="orange-button">
+                      <a href="#">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner" style="background-image:url(assets/images/slide-03.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="header-text">
+                  <h2>Best One in Town<br>&amp; Crypto <em>Services</em></h2>
+                  <div class="div-dec"></div>
+                  <p>When you browse through different tags on TemplateMo website, you can see a variety of CSS templates which are responsive website designs for different individual needs. Please tell your friends about our website. Thank you.</p>
+                  <div class="buttons">
+                    <div class="green-button">
+                      <a href="#">Discover More</a>
+                    </div>
+                    <div class="orange-button">
+                      <a href="#">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
     <section class="c-misucdas">
 
         <div class="container px-4 mvob" id="featured-3">
@@ -192,6 +224,60 @@
     <!-- Background image -->
     @include('footer.foot')
     <script src="{{ asset('assets/dist/js/bootstrap.bundle.min.js') }}"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="{{ asset ('vendor/jquery/jquery.min.js' )}}"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+      <script src="{{ asset ('assets/js/isotope.min.js') }}"></script>
+      <script src="{{ asset ('assets/dist/js/owl-carousel.js') }}"></script>
+  
+      <script src="{{ asset ('assets/dist/js/tabs.js') }}"></script>
+      <script src="{{ asset ('assets/dist/js/swiper.js') }}"></script>
+      <script src="{{ asset ('assets/dist/js/custom.js') }}"></script>
+      <script>
+          var interleaveOffset = 0.5;
+  
+        var swiperOptions = {
+          loop: true,
+          speed: 1000,
+          grabCursor: true,
+          watchSlidesProgress: true,
+          mousewheelControl: true,
+          keyboardControl: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+          on: {
+            progress: function() {
+              var swiper = this;
+              for (var i = 0; i < swiper.slides.length; i++) {
+                var slideProgress = swiper.slides[i].progress;
+                var innerOffset = swiper.width * interleaveOffset;
+                var innerTranslate = slideProgress * innerOffset;
+                swiper.slides[i].querySelector(".slide-inner").style.transform =
+                  "translate3d(" + innerTranslate + "px, 0, 0)";
+              }      
+            },
+            touchStart: function() {
+              var swiper = this;
+              for (var i = 0; i < swiper.slides.length; i++) {
+                swiper.slides[i].style.transition = "";
+              }
+            },
+            setTransition: function(speed) {
+              var swiper = this;
+              for (var i = 0; i < swiper.slides.length; i++) {
+                swiper.slides[i].style.transition = speed + "ms";
+                swiper.slides[i].querySelector(".slide-inner").style.transition =
+                  speed + "ms";
+              }
+            }
+          }
+        };
+  
+        var swiper = new Swiper(".swiper-container", swiperOptions);
+      </script>
 </body>
 
 </html>
