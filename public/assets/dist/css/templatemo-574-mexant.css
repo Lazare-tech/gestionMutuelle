@@ -185,9 +185,7 @@ body {
   opacity: 0.9;
 }
 
-section {
-  margin-top: 120px;
-}
+
 
 .section-heading {
   position: relative;
@@ -839,14 +837,18 @@ cta
 */
 
 section.simple-cta {
-  background-image: url(../images/cta-bg.jpg);
+  background-image: url('../../../images/cta-bg.jpg');
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
-  padding: 80px 0px;
+  padding-top: 4rem;
 }
-
+/* .a-marorem{
+  background:#1f262c;
+  opacity: 0.8;
+} */
 section.simple-cta .left-image {
   margin-right: 45px;
 }

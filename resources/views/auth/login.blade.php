@@ -1,4 +1,5 @@
-@extends('index')
+@extends('layouts.app-layout')
+@section('title', 'Se connecter')
 
 @section('content')
 <div class="container">

@@ -1,4 +1,6 @@
-@extends('index')
+@extends('layouts.app-layout')
+@section('title', 'S\'inscrire')
+
 
 @section('content')
 <div class="container">

@@ -53,15 +53,48 @@ height: 118vh;
 /* apropos page index */
 .mvob{
   padding-top: 5rem;
+  /* background: #252e37;
+  opacity: 0.5; */
+  
+
 }
 .feature-icon {
   width: 4rem;
   height: 4rem;
   border-radius: .75rem;
 }
-.c-misucdas{
-  background:#f8f9fa" 
+.count-area-content {
+  text-align: center;
+  background-color: rgba(250,250,250,0.15);
+  border-radius: 20px;
+  padding: 25px 30px 35px 30px;
+  margin: 15px 0px;
 }
+.percentage .count-digit:after {
+  content: '%';
+  margin-left: 3px;
+}
+
+.count-digit {
+    margin: 5px 0px;
+    color: #f5a425;
+    font-weight: 700;
+    font-size: 36px;
+}
+.count-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+
+.c-misucdas{
+  background-image: url('../../../images/cta-bg.jpg');
+  
+  
+}
+
 
 .icon-square {
   width: 3rem;
@@ -86,10 +119,10 @@ height: 118vh;
 .b-example-divider {
   width: 100%;
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #1f262c;
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 .5em 1.5em #1f262c, inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 /* liste activite */
 .event-label {
@@ -102,14 +135,42 @@ height: 118vh;
   border-radius: 5px; /* Optional: Add border-radius for rounded corners */
 }
 .btn-activite{
-  background-color: #00839a;
+  background-color: #a12c2f;
   height: 2.7rem;
   width: 13rem;
   border-radius: 1.1rem;
+}
+.category-item:hover a{
+  color: #a12c2f;
+  font-weight: 500;
+}
+.category-item a{
+  color: black;
+}
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color:white;
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.bg-trans{
+  background-image: url('../../../images/meetings-bg.jpg');
+  
+
 }
 /* contact */
 #hero_contact{
   background-image: url('../../../images/contact.jpeg');
   background-size: cover;
   height: 50vh;
+}
+/* footer */
+.fa-print, .fa-phone, .fa-home,.fa-envelope{
+  color:black;
+}
+/* icone reseaux */
+.fa-instagram-square ,.fa-facebook-square,.fa-twitter-square{
+  color: black  ;
 }
